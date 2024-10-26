@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Medium</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <nav>
+            <div class="logo">
+                <a href="#">Medium</a>
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="hidden-link"> 
+                        <a href="story.html">Our Story</a> 
+                    </li>
+                    <li class="hidden-link">
+                        <a href="#">Membership</a>
+                    </li>
+                    <li id="sign-in">
+                        <a href="#log-in-body">Sign in</a>
+                        <div id="log-in-body">
+                            <form action="#" id="log-in">
+    
+                                <a href="#" class="close">Close</a>
+                                
+                                <h2>Welcome back.</h2>
+    
+                                <p>
+                                    <label for="mail">
+                                        <b>Email</b>
+                                    </label>
+                                </p>
+    
+                                <p class="user-info">
+                                    <input type="email" name="mail" id="mail" placeholder="ehi@gmail.com" aria-placeholder="email" required>
+                                </p>
+    
+                                <p>
+                                    <label for="password">
+                                        <b>Password</b>
+                                    </label>
+                                </p>
+    
+                                <p class="user-info">
+                                    <input type="password" name="password" id="password" required>
+                                </p>
+    
+                                <p>
+                                    <button id="login-btn">Log in</button>
+                                </p>
+    
+                                <p class="social">
+                                    <a href="#">
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                            
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </p>
+    
+                                <p>
+                                    No account? <a href="#sign-up">Create one.</a>
+                                </p>
+                            </form>
+                        </div>
+                    </li>
+                    <li id="get-started">
+                        <a href="#sign-up">
+                            <span id="get-started-btn">Get started</span>
+                        </a>
+                        <div id="sign-up">
+                            <form action="#" id="register">
+    
+                                <a href="#" class="close">Close</a>
+    
+                                <h2>Join Medium</h2>
+    
+                                <p>
+                                    <label for="username">
+                                        <b>Name <span id="surname">(Surname first)</span> </b>
+                                    </label>
+                                </p>
+    
+                                <p class="user-info">
+                                    <input type="text" name="user" id="username" placeholder="Ukpebor Ehiremhen" aria-placeholder="fullname" required>
+                                </p>
+    
+                                <p>
+                                    <label for="mail">
+                                        <b>Email</b>
+                                    </label>
+                                </p>
+    
+                                <p class="user-info">
+                                    <input type="email" name="mail" id="mail" placeholder="ehi@gmail.com" aria-placeholder="email" required>
+                                </p>
+    
+                                <b>Gender</b>
+                                <p class="user-info">
+                                    <input type="radio" name="gender" id="female">
+                                    <label for="female">Female</label>
+    
+                                    <input type="radio" name="gender" id="male">
+                                    <label for="male">Male</label>
+                                </p>
+    
+                                <p>
+                                    <label for="password">
+                                        <b>Password</b>
+                                    </label>
+                                </p>
+    
+                                <p>
+                                    <input type="password" name="password" id="password" required>
+                                </p>
+    
+                                <p id="terms">
+                                    <input type="checkbox" name="agreement" id="agreement" required>
+                                    <label for="agreement">
+                                        I agree to Medium’s <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                                    </label>
+                                </p>
+    
+                                <p>
+                                    <button id="register-btn">Register</button>
+                                </p>
+    
+                                <p>
+                                    Already have an account? <a href="#log-in-body">Sign in.</a>
+                                </p>
+    
+                                <p class="social">
+                                    <a href="#">
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                            
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </p>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+    
+        <header>
+            <div class="hero-area">
+    
+                <section class="hero-text">
+                    <h1 id="hero-title">
+                        Human
+                        <br> 
+                        stories & ideas
+                    </h1>
+                    <h2 id="hero-content">
+                        A place to read, write, and deepen your understanding
+                    </h2>
+                    <button id="read-btn">
+                        <a href="#sign-up">Start reading</a>
+                    </button>
+                </section>
+        
+                <section class="hero-flip-image">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./images/bg-image.png" alt="background" id="background-image" width="100%" height="100%">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="./images/bg-bubbles.png" alt="bubbles" id="bubbles-image" width="100%" height="100%">
+                            
+                          <!-- <h1>John Doe</h1>
+                          <p>Architect & Engineer</p>
+                          <p>We love that guy</p> -->
+                        </div>
+                      </div>
+                </section>
+    
+            </div>
+        </header>
+
+        <main>
+            <div class="reviews">
+                <div class="reviews-heading">
+                    <h1>What members are saying</h1>
+                </div>
+                <div class="members-list">
+                    <div class="member one">
+                        <img src="./images/cassie.jpg" alt="Cassie's image" width="100%" height="100%">
+
+                        <div class="mem-thought">
+                            <p>
+                                The easy path in social media is promoting the worst content, the cheapest, tackiest, lowest-effort stuff. That’s not what you get on Medium. You can actually find content you can build your brain with. I appreciate that, both as a reader and a writer.
+                            </p>
+                            <p class="mem-details">
+                                <b>Cassie Kozyrkov,</b>
+                                 Chief Decision Scientist at Google and Medium member
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="member two">
+                        <img src="./images/enrique.jpg" alt="Enrique's image" width="100%" height="100%">
+
+                        <div class="mem-thought">
+                            <p>
+                                Medium has proved a game-changer for me, and quickly became the subscription I value the most, and I have quite a few. The cost is nothing compared to the value Medium generates for me month after month.
+                            </p>
+                            <p class="mem-details">
+                                <b>Enrique Dans,</b>
+                                 Professor of Innovation at IE Business School and Medium member
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="member three">
+                        <img src="./images/wenqi.jpg" alt="Wenqi's image" width="100%" height="100%">
+                        
+                        <div class="mem-thought">
+                            <p>
+                                For us tech folks, Medium membership unlocks a whole treasure trove of high-quality articles. One good technology book could sell for over the Medium membership fee amount. It’s your choice whether to buy one book, or buy hundreds and thousands of books by unlocking member-only reading on Medium. Investing in a Medium membership is one of the best investments I have ever made for my career.
+                            </p>
+                            <p class="mem-details">
+                                <b>Wenqi Glantz,</b>
+                                 Software Architect at ArisGlobal and Medium member
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="footer social">
+                <a href="story.html">About</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </footer>
+        
+    </div>
+    
+</body>
+</html>

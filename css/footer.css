@@ -1,0 +1,49 @@
+
+/* 
+    --- FOOTER SECTION ---
+*/
+
+
+.footer {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer a {
+    font-size: large;
+    color: royalblue;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 10px;
+    font-family: monospace;
+    font-variant-caps: small-caps;
+}
+
+.footer a:hover {
+    color: rgb(0, 46, 133);
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+/* STORY SECTION - FOOTER PART */
+
+.story-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: aliceblue;
+}
+
+.footer-logo {
+    margin-top: 15px;
+}
+
+.footer-logo a {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #000;
+    font-family: monospace;
+    font-variant-caps: small-caps;
+    font-variant: ordinal;
+}
