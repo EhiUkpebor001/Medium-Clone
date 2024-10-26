@@ -1,4 +1,10 @@
 
+@media (orientation: landscape) {
+    #log-in-body, #sign-up {
+        overflow: scroll;
+    }
+}
+
 @media (max-width: 1024px) {
     .hero-area {
         grid-template-columns: 1fr;
