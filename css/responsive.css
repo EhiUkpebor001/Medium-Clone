@@ -31,7 +31,7 @@
     }
     
     .close {
-        width: 25%;
+        width: 10%;
     }
 
     #register input, #log-in input {
@@ -100,7 +100,7 @@
     }
 
     .close {
-        width: 25%;
+        width: 10%;
     }
 
     #register input, #log-in input {
@@ -112,7 +112,7 @@
     }
 
     #hero-title {
-        font-size: 5em;
+        font-size: 4em;
         line-height: 1em;
     }
 
@@ -121,7 +121,7 @@
     }
 
     .mem-thought {
-        font-size: medium;
+        font-size: larger;
     }
 
     .footer {
