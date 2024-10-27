@@ -112,16 +112,20 @@
     }
 
     #hero-title {
-        font-size: 4em;
+        font-size: 3.5em;
         line-height: 1em;
     }
 
+    #hero-content {
+        font-size: 20px;
+    }
+    
     .reviews-heading {
         font-size: large;
     }
 
     .mem-thought {
-        font-size: larger;
+        font-size: x-large;
     }
 
     .footer {
